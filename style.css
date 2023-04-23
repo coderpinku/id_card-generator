@@ -1,0 +1,102 @@
+.main-header{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+.print-btn{
+    position: relative;
+    display: flex;
+    left: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.print-btn button{
+    width: 80px;
+    display: none;
+    height: 28px;
+    
+}
+#id-card {
+    width: 500px;
+    height: 280px;
+    border: 1px solid blue;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.id-header {
+    position: relative;
+    width: 100%;
+    height: 48px;
+    top: 0;
+    background-color: blue;
+    border-radius: 1rem 1rem 0 0;
+    color: white;
+}
+
+.id-header h2 {
+    position: absolute;
+    padding-left: 6rem;
+    margin: 12px;
+
+}
+
+#id-card h2,
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+
+}
+
+.img-logo img {
+    height: 200px;
+    width: 150px;
+    border: 2px solid blue;
+
+}
+
+.id-details {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content:space-around; */
+    padding: 0 12px;
+    margin: 12px 0;
+    line-height: 1.5;
+}
+
+.labels {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 2rem;
+    font-weight: 600;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    padding: 8px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+
+}
+
+.company-logo {
+    line-height: 0.4;
+    position: relative;
+    left: 13rem;
+    bottom: 5rem;
+}
+
+.company-logo h1 {
+    color: blue;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.company-logo h3 {
+    text-align: center;
+}
